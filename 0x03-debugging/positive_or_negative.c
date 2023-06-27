@@ -3,12 +3,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(void)
+int positive_or_negative (void)
 {
-	int n;
+	int i;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	i = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	return (0);
 }
